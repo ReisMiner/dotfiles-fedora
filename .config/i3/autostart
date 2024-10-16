@@ -1,0 +1,6 @@
+exec sh ~/.fehbg &
+exec_always --no-startup-id ~/.config/polybar/start_polybar.sh &
+exec blueman-applet &
+exec --no-startup-id volumeicon &
+exec --no-startup-id numlockx on
+exec --no-startup-id greenclip daemon &
